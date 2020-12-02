@@ -12,7 +12,7 @@
       "hash": "sha512:a78e91b121301bffda6e0061d628f6e8b220e19bea4d54427299c6c36f38008ee29c6e9aff29d90e5c3817e835101bad9ecd90676d46de3b40e0a5971c1d2e24",
       "extract_dir": "Clipjump_x64",
       "pre_install": [
-        "Rename-Item \"$dir\\Clipjump_x64\" \"$dir\\Clipjump\" && Get-ChildItem \"$dir\\Clipjump\\Clipjump?.exe\" | Rename-Item -NewName \"$dir\\Clipjump\\Clipjump.exe\""
+        "Get-ChildItem \"$dir\\Clipjump?.exe\" | Rename-Item -NewName \"$dir\\Clipjump.exe\""
       ]
     },
     "32bit": {
