@@ -16,7 +16,6 @@
             "hash": "sha512:2be13b0ca7dbc18ac8cde4c5edd3a0a53a52786ab7ea1dc783aa58e0e766b9430ec2aca2f8d9ab43dd7e7afd24698d07b1b74e9b571690e0a35aaf8ac92b2981"
         }
     },
-    "extract_dir": "Clipjump",
     "pre_install": "Get-ChildItem \"$dir\\Clipjump?.exe\" | Rename-Item -NewName \"$dir\\Clipjump.exe\"",
     "bin": "Clipjump.exe",
     "shortcuts": [
