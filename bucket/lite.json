@@ -9,9 +9,9 @@
         "https://raw.githubusercontent.com/nirose/scoop-extras/lite111/scripts/lite-uninstall-context.reg"
     ],
     "hash": [
-        "da3701cf6985bc493cb11b37556325551c7ce8606f5502ff3f15199039835eef",
-        "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
-        "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
+        "sha512:edcb8efb6538caaa374942221194caa7e3986e0e97db20a22d9cdf8298b34345d558d7d784c681c3ff8941503fecfaa24ace8deb44520db4d6237124ed03d261",
+        "sha512:152cebc8cc416d7efc8a9b5c64bc3ccd47a80c673e9a817a66cb12234ed8b358972731ee94581d8947c4bebc8f0e4fc3058c8ce6c9d52e7ba061e9217f4d8365",
+        "sha512:2b1b8f18ef67fee0a2f364ed6ddb953015e9b1563efa5192cb2ed952dda883e41a6ed66e64ea800715deb9af29b76934e0b411c5b169ff777a0455d4e995229e"
     ],
     "persist": [
         "data\\plugins",
