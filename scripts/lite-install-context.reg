@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Lite]
+@="Open with &Lite"
+"Icon"="$lite"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &Lite\command]
+@="\"$lite\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Lite]
+@="Open with &Lite"
+"Icon"="$lite"
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &Lite\command]
+@="\"$lite\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Lite]
+@="Open with &Lite"
+"Icon"="$lite"
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &Lite\command]
+@="\"$lite\" \"%V\""
